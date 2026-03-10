@@ -17,19 +17,19 @@ This project uses machine learning to predict whether a patient will be readmitt
 The goal is to build an interpretable and clinically meaningful model suitable for real‑world hospital settings.
 
 # Dataset
-Source: UCI Machine Learning Repository
-Dataset: “Diabetes 130‑US Hospitals for Years 1999–2008”
-Rows: 101,766 encounters
+Source: UCI Machine Learning Repository,
+Dataset: “Diabetes 130‑US Hospitals for Years 1999–2008”,
+Rows: 101,766 encounters,
 Features:
-Diagnoses (ICD‑9 codes)
-Lab values and abnormal flags
-Procedures
-Medications
-Demographics
-Encounter type
-Prior admissions
-Length of stay
-Discharge disposition
+Diagnoses (ICD‑9 codes),
+Lab values and abnormal flags,
+Procedures,
+Medications,
+Demographics,
+Encounter type,
+Prior admissions,
+Length of stay,
+Discharge disposition,
 
 Target variable: readmitted (transformed to: readmitted within 30 days = 1, otherwise = 0)
 
